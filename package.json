@@ -1,5 +1,5 @@
 {
-  "name": "@wdio/junit-reporter",
+  "name": "@valentin.condurache/wdio-junit-reporter",
   "version": "8.12.2",
   "description": "A WebdriverIO reporter that creates Jenkins compatible XML based JUnit reports",
   "author": "Christian Bromann <mail@bromann.dev>",
@@ -42,5 +42,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "a625a704f75cac182b0312d05f0b6f62cd719544"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
