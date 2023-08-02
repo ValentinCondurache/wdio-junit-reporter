@@ -1,5 +1,6 @@
-import WDIOReporter, { RunnerStats, TestStats } from '@wdio/reporter';
-import type { JUnitReporterOptions } from './types';
+import type { RunnerStats, TestStats } from '@wdio/reporter';
+import WDIOReporter from '@wdio/reporter';
+import type { JUnitReporterOptions } from './types.js';
 /**
  * Reporter that converts test results from a single instance/runner into an XML JUnit report. This class
  * uses junit-report-builder (https://github.com/davidparsson/junit-report-builder) to build report.The report
